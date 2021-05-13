@@ -44,7 +44,7 @@ const UserInfo = () => {
       <article className="item">
         <span className={color}>{icon}</span>
         <div>
-          <p><strong>{value}</strong></p>
+          <p><strong style={{ color: 'black' }}>{value}</strong></p>
           <p>{label}</p>
         </div>
       </article>
